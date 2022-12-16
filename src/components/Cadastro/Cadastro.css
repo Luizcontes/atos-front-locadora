@@ -1,0 +1,29 @@
+.cadastro__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.image > img {
+    vertical-align: center;
+}
+
+.form > * {
+    display: flex;
+    margin: 0 5rem;
+}
+
+.form label {
+    margin-bottom: .2rem;
+    margin-top: .7rem;
+}
+
+.cadastro__form button {
+    padding: 1rem 2rem;
+}
